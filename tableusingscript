@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script type="text/javascript">
+
+students=[
+['roll No','name','clg id','contact no'],
+['1','raj','1' ,'998877'],
+['2','ram','2' ,'998877'],
+['3','remo','5' ,'898975'],
+['4','rocky','4' ,'978566']
+]
+
+document.write("<table border='10px'>");
+
+for(i=0;i<students.length;i++){
+document.write("<tr>")
+
+for(j=0;j<students[i].length;j++){
+console.log(i+" "+j);
+document.write("<td> "+students[i][j]+"</td>")
+}
+
+document.write("</tr>")
+
+}
+
+
+document.write("</table>");
+
+</script>
+
+
+</head>
+<body>
+
+</body>
+</html>
