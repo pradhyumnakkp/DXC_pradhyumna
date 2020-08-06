@@ -1,0 +1,23 @@
+package dxc;
+
+public class Noofzeros {
+
+	public static void main(String[] args) {
+		int x=1000024,count=0;
+		int digit;
+		while(x!=0)
+		{
+			digit=x%10;
+			if(digit==0)
+			{
+				count++;
+			}
+			else
+				break;
+			x=x/10;
+			
+		}
+		System.out.println("No of zeros "+count);
+	}
+
+}
